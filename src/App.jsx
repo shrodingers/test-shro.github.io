@@ -113,7 +113,7 @@ function App() {
           <h3>Articles by Margot Hutton</h3>
           <div className="articles-grid">
             <div className="article-card">
-              <img className="article-img" src="https://information.tv5monde.com/sites/info.tv5monde.com/files/styles/large/public/assets/images/2025/06/13/unoc.jpg" alt="Conférence des Nations Unies sur l'océan" />
+              <img className="article-img" src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Conférence des Nations Unies sur l'océan" />
               <div className="article-content">
                 <a href="https://information.tv5monde.com/unoc-que-faut-il-retenir-de-la-conference-des-nations-unies-sur-locean-123456" className="article-title" target="_blank" rel="noopener noreferrer">
                   Que faut-il retenir de la Conférence des Nations Unies sur l'océan ?
@@ -122,7 +122,7 @@ function App() {
               </div>
             </div>
             <div className="article-card">
-              <img className="article-img" src="https://information.tv5monde.com/sites/info.tv5monde.com/files/styles/large/public/assets/images/2025/06/11/femmes-mer.jpg" alt="Femmes de mer" />
+              <img className="article-img" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80" alt="Femmes de mer" />
               <div className="article-content">
                 <a href="https://information.tv5monde.com/femmes-de-mer-pourquoi-les-femmes-sont-elles-si-peu-presentes-dans-le-milieu-de-la-mer-654321" className="article-title" target="_blank" rel="noopener noreferrer">
                   Pourquoi les femmes sont-elles si peu présentes dans le milieu de la mer ?
@@ -131,7 +131,7 @@ function App() {
               </div>
             </div>
             <div className="article-card">
-              <img className="article-img" src="https://information.tv5monde.com/sites/info.tv5monde.com/files/styles/large/public/assets/images/2025/05/27/gaza-aide.jpg" alt="ONU dans le flou sur l'aide humanitaire livrée par la Fondation humanitaire de Gaza" />
+              <img className="article-img" src="https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?auto=format&fit=crop&w=400&q=80" alt="ONU dans le flou sur l'aide humanitaire livrée par la Fondation humanitaire de Gaza" />
               <div className="article-content">
                 <a href="https://information.tv5monde.com/bocage-de-laide-humanitaire-lonu-dans-le-flou-sur-laide-humanitaire-livree-par-la-fondation-humanitaire-de-gaza-789012" className="article-title" target="_blank" rel="noopener noreferrer">
                   L'ONU dans le flou sur l'aide humanitaire livrée par la Fondation humanitaire de Gaza
@@ -140,7 +140,7 @@ function App() {
               </div>
             </div>
             <div className="article-card">
-              <img className="article-img" src="https://information.tv5monde.com/sites/info.tv5monde.com/files/styles/large/public/assets/images/2025/03/12/afrique-pollution.jpg" alt="En Afrique, l'air est-il plus pollué ?" />
+              <img className="article-img" src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="En Afrique, l'air est-il plus pollué ?" />
               <div className="article-content">
                 <a href="https://information.tv5monde.com/en-afrique-lair-est-il-plus-pollue-456789" className="article-title" target="_blank" rel="noopener noreferrer">
                   En Afrique, l'air est-il plus pollué ?
