@@ -110,21 +110,45 @@ function App() {
 
       {tab === 'articles' && (
         <section>
-          <h3>Featured Articles</h3>
-          <ul className="featured-articles">
-            <li>
-              <a href="#">The Changing Face of Global News</a>
-              <span className="article-desc"> – An in-depth look at how global news is evolving in the digital age.</span>
-            </li>
-            <li>
-              <a href="#">Inside the World of Investigative Journalism</a>
-              <span className="article-desc"> – Exploring the challenges and triumphs of investigative reporting.</span>
-            </li>
-            <li>
-              <a href="#">Reporting from the Frontlines: A Journalist's Perspective</a>
-              <span className="article-desc"> – First-hand accounts from reporting in the field.</span>
-            </li>
-          </ul>
+          <h3>Articles by Margot Hutton</h3>
+          <div className="articles-grid">
+            <div className="article-card">
+              <img className="article-img" src="https://information.tv5monde.com/sites/info.tv5monde.com/files/styles/large/public/assets/images/2025/06/13/unoc.jpg" alt="Conférence des Nations Unies sur l'océan" />
+              <div className="article-content">
+                <a href="https://information.tv5monde.com/unoc-que-faut-il-retenir-de-la-conference-des-nations-unies-sur-locean-123456" className="article-title" target="_blank" rel="noopener noreferrer">
+                  Que faut-il retenir de la Conférence des Nations Unies sur l'océan ?
+                </a>
+                <div className="article-desc">Le sommet onusien sur les océans s’achève ce 13 juin. Plusieurs annonces diplomatiques et de financement ont été faites. Tour d’horizon.</div>
+              </div>
+            </div>
+            <div className="article-card">
+              <img className="article-img" src="https://information.tv5monde.com/sites/info.tv5monde.com/files/styles/large/public/assets/images/2025/06/11/femmes-mer.jpg" alt="Femmes de mer" />
+              <div className="article-content">
+                <a href="https://information.tv5monde.com/femmes-de-mer-pourquoi-les-femmes-sont-elles-si-peu-presentes-dans-le-milieu-de-la-mer-654321" className="article-title" target="_blank" rel="noopener noreferrer">
+                  Pourquoi les femmes sont-elles si peu présentes dans le milieu de la mer ?
+                </a>
+                <div className="article-desc">Selon un rapport de l’Organisation maritime internationale, les femmes ne représentent que 29% de la main-d'œuvre globale dans le secteur maritime.</div>
+              </div>
+            </div>
+            <div className="article-card">
+              <img className="article-img" src="https://information.tv5monde.com/sites/info.tv5monde.com/files/styles/large/public/assets/images/2025/05/27/gaza-aide.jpg" alt="ONU dans le flou sur l'aide humanitaire livrée par la Fondation humanitaire de Gaza" />
+              <div className="article-content">
+                <a href="https://information.tv5monde.com/bocage-de-laide-humanitaire-lonu-dans-le-flou-sur-laide-humanitaire-livree-par-la-fondation-humanitaire-de-gaza-789012" className="article-title" target="_blank" rel="noopener noreferrer">
+                  L'ONU dans le flou sur l'aide humanitaire livrée par la Fondation humanitaire de Gaza
+                </a>
+                <div className="article-desc">Les Nations unies ne savent pas si la fondation humanitaire de Gaza, soutenue par les États-Unis, a commencé ses livraisons d'aide.</div>
+              </div>
+            </div>
+            <div className="article-card">
+              <img className="article-img" src="https://information.tv5monde.com/sites/info.tv5monde.com/files/styles/large/public/assets/images/2025/03/12/afrique-pollution.jpg" alt="En Afrique, l'air est-il plus pollué ?" />
+              <div className="article-content">
+                <a href="https://information.tv5monde.com/en-afrique-lair-est-il-plus-pollue-456789" className="article-title" target="_blank" rel="noopener noreferrer">
+                  En Afrique, l'air est-il plus pollué ?
+                </a>
+                <div className="article-desc">Deux des cinq pays les plus pollués au monde se trouvent en Afrique, selon une étude de l’IQAir.</div>
+              </div>
+            </div>
+          </div>
         </section>
       )}
 
