@@ -1,3 +1,3 @@
 export default {
-  base: '/test-shro.github.io',
+  base: '/test-shro.github.io/',
 }; 
